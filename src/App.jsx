@@ -33,6 +33,7 @@ function App() {
         <div>
           <label htmlFor="firstName">First Name:</label>
           <input
+          type="text"
             id="firstName"
             onChange={(e) => handleInputFirstName(e)}
             value={firstName}
@@ -41,6 +42,7 @@ function App() {
         <div>
           <label htmlFor="lastName">Last Name:</label>
           <input
+          type="text"
             id="lastName"
             onChange={(e) => {
               handleInputLastName(e);
