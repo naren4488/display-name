@@ -50,7 +50,7 @@ function App() {
             value={lastName}
           />
         </div>
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </form>
       {fullName && <p>Full Name: {fullName}</p>}
     </>
